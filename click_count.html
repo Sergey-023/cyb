@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicks</title>
+    <script>
+        var i = 0;
+        
+        function count() {
+            i = i + 1;document.getElementById("btn").innerText = i;
+
+        }
+
+    </script>
+</head>
+<body>
+    <h1>Клики на чистом JS - нет проблем</h1>
+    <button id="btn" onclick="count();">Click me</button>
+</body>
+</html>
